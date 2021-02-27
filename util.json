@@ -1,0 +1,81 @@
+
+//algorithm - default_workers / 2 = workers, default_workers = tourists
+
+[
+	{
+		"id":"$kulche_tourism_script00",
+		"type":"script",
+		"script":"script_0.lua"
+	},
+	{
+		"id":"$kulche_tourism_script01",
+		"type":"script",
+		"script":"script_1_attractiveness.lua"
+	},
+	{
+		"id":"$kulche_tourism_script02",
+		"type":"script",
+		"script":"script_2_traffic.lua"
+	},
+	{
+		"id":"$kulche_tourism_zone00",
+		"title":"Tourism Zone",
+		"text":"Hotels and other buildings for tourists will be built here.",
+		"type":"zone",
+		"frames":[{"bmp":"tourism_zone.png"}],
+		"base":"$zonecommercial",
+		"rci":true,
+		"preview frames":[{"bmp":"tourism_zone.png"}], //fix
+		"price":400 //set
+	},
+	{
+		"id":"$kulche_hotel_00",
+		"width":1,
+		"height":1,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_0.png"}],
+		"author":"Pluc",
+		"level":2,
+		"people":6,
+		"zone":"$kulche_tourism_zone00"
+		//12 workers default
+	},
+	{
+		"id":"$kulche_hotel_01",
+		"width":4,
+		"height":4,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_1.png"}],
+		"author":"Pluc",
+		"level":2,
+		"draw ground":true,
+		"people":130,
+		"zone":"$kulche_tourism_zone00"
+		//259 workers default
+	},
+	{
+		"id":"$kulche_hotel_02",
+		"width":2,
+		"height":2,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_2.png"}],
+		"author":"Pluc",
+		"level":2,
+		"people":21,
+		"zone":"$kulche_tourism_zone00"
+		//42 workers default
+	},
+	{
+		"id":"$kulche_hotel_03",
+		"width":1,
+		"height":1,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_3.png","w":32,"count":2}],
+		"rotation aware":true,
+		"author":"Pluc",
+		"level":1,
+		"zone":"$kulche_tourism_zone00",
+		"people":4
+		//8 workers default
+	}
+]
