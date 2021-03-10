@@ -13,6 +13,13 @@
 		"script":"script_1_attractiveness.lua"
 	},
 	{
+		"id":"$kulche_hotel_04_nightanim_00",
+		"type":"animation",
+		"frames":[{"bmp":"hotel_4_night.png"}],
+		"light":true,
+		"light switching":true
+	},
+	{
 		"id":"$kulche_tourism_zone00",
 		"title":"Tourism Zone",
 		"text":"Hotels and other buildings for tourists will be built here.",
@@ -371,7 +378,8 @@
 			{"id": "1x1l", "x": 13, "y": -4},
 			{"id": "1x2l", "x": 9, "y": -3},
 			{"id": "1x2l", "x": 11, "y": -2},
-			{"id": "1x2l", "x": 13, "y": -1}]
+			{"id": "1x2l", "x": 13, "y": -1},
+			{"id": "$kulche_hotel_04_nightanim_00", "x": 27, "y": -45}]
 		//"people":4
 		//8 workers default
 	}
