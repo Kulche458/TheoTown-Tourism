@@ -448,5 +448,31 @@
 			{"id": "$kulche_hotel_04_nightanim_00", "x": 27, "y": -45}]
 		//"people":4
 		//8 workers default
+	},
+	{
+		"id":"$kulche_hotel_05",
+		"width":2,
+		"height":2,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_5.png","w":32,"count":2}],
+		"rotation aware":true,
+		"author":"Pluc",
+		"level":1,
+		//"people":x,
+		"zone":"$kulche_tourism_zone00"
+		//x workers default
+	},
+	{
+		"id":"$kulche_hotel_06",
+		"width":2,
+		"height":2,
+		"type":"commercial",
+		"frames":[{"bmp":"hotel_6.png","w":32,"count":2}],
+		"rotation aware":true,
+		"author":"Pluc",
+		"level":1,
+		//"people":x,
+		"zone":"$kulche_tourism_zone00"
+		//x workers default
 	}
 ]
